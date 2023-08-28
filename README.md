@@ -6,7 +6,7 @@ Before our workshop on SDKs and the Twilio API, it's important that every
 participant is prepared with the required tools. Please follow the steps below
 to ensure a smooth experience:
 
-1. Twilio
+### Twilio
 
 If you don't already have a Twilio account, visit Twilio's [sign up
 page](https://www.twilio.com/try-twilio) to sign up for a free account.
@@ -20,7 +20,7 @@ You'll want the `flexFlowId` A.K.A. the Address of the messaging flow for Flex.
 <img width="1770" alt="image" src="https://github.com/cjavdev/twilio-tinker-time/assets/3710766/292da110-48f5-48fe-947a-eb6774477a2f">
 
 
-2. Replit
+### Replit
 
 If you don't already have a Replit account, visit Replit's [sign up
 page](https://replit.com/signup) to sign up for a free account.
