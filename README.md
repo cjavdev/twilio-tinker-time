@@ -17,6 +17,8 @@ Also, we'll be installing the Twilio WebChat feature that is part of Flex.
 
 You'll want the `flexFlowId` A.K.A. the Address of the messaging flow for Flex.
 
+<img width="1770" alt="image" src="https://github.com/cjavdev/twilio-tinker-time/assets/3710766/292da110-48f5-48fe-947a-eb6774477a2f">
+
 
 2. Replit
 
