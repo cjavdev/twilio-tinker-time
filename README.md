@@ -11,7 +11,11 @@ to ensure a smooth experience:
 If you don't already have a Twilio account, visit Twilio's [sign up
 page](https://www.twilio.com/try-twilio) to sign up for a free account.
 
-Note down your Account SID and Auth Token, as these will be essential for the workshop exercises.
+Note down your **Account SID** and **Auth Token**, as these will be essential for the workshop exercises.
+
+Also, we'll be installing the Twilio WebChat feature that is part of Flex.
+
+You'll want the `flexFlowId` A.K.A. the Address of the messaging flow for Flex.
 
 
 2. Replit
