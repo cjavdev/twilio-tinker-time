@@ -4,7 +4,7 @@
 
 An SDK is a set of tools to build software for a particular platform.
 
-Typically, an SDK will include a bit more than just the library code and will
+Typically, an SDK will include a bit more than the library code and will
 often ship with documentation, debugging tools, tools for automated testing,
 and code examples.
 
