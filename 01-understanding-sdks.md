@@ -10,13 +10,12 @@ and code examples.
 
 ## Lingo
 
-First let's talk about a few terms:
+First, let's talk about a few terms:
 
 * Library: A collection of pre-written code that developers can use. Some SDKs
   are referred to primarily as libraries, though an SDK often contains multiple
   libraries. In web development, you might also hear "Client Library" or
   "Server-side Library" and "Client-side Library."
-  [./server-side-vs-client-side.md]((see the difference here)).
 
 * Framework: While not exactly the same as an SDK, frameworks provide a
   foundational structure to develop software, and sometimes the term is used
@@ -37,7 +36,7 @@ misunderstood:
 more APIs. So when developers use an SDK, they're often directly interacting
 with its included API(s).
 
-**Method names in SDKs**: The actual functions or methods that developers call when
+**Method names in SDKs**: The actual functions or methods developers call when
 using an SDK can be considered the SDK's API. For instance, if you're using a
 game development SDK, the function to draw an object on the screen is part of
 the SDK's API.
@@ -48,12 +47,12 @@ services and cloud computing. However, it's important to remember that not all
 APIs are web-based.
 
 
-When we say API in this session, we'll mean "Web API" and refer to the set of
+When we say API in this session, we mean "Web API" and refer to the set of
 HTTP endpoints exposed by Twilio for working with their services.
 
-## Client vs server SDKs
+## Client vs. server SDKs
 
-When building a modern web application there are really 2 places that code
+When building a modern web application, there are really two places that code
 runs: client (usually your browser or a mobile app), server (usually some
 computer in AWS or Azure). When a web page first loads, it downloads the code
 to run on your browser from the server, then as you interact with the
@@ -63,9 +62,8 @@ to save your place.
 
 1. Client SDKs
 
-Client SDKs are designed to be integrated into client-side applications, such
-as mobile apps or web frontends. They typically interact directly with the
-end-user's device. E.g. a little chat widget on a website, or the payment input
+Client SDKs are designed to be integrated into client-side applications like mobile apps or web frontends. They typically interact directly with the
+end-user's device. E.g., a little chat widget on a website or the payment input
 fields for typing your credit card.
 
 Advantages:
@@ -82,7 +80,7 @@ Advantages:
 2. Server SDKs
 
 Server SDKs are designed for server-side applications. They handle backend
-operations, communicate with other servers, and often involve tasks that
+operations, communicate with other servers and often involve tasks that
 shouldn't be exposed to the client for security reasons.
 
 Advantages:
