@@ -25,3 +25,5 @@ to fetch conversations from the Twilio API.
 
 The start time and a friendly name for the conversation should appear in the
 Conversations section of the app.
+
+**Hint**: [Twilio Documentation](https://www.twilio.com/docs/conversations/api/conversation-resource#read-multiple-conversation-resources)
