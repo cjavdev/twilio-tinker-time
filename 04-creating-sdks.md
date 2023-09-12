@@ -42,7 +42,7 @@ For more nitty gritty about SDK generation, checkout a [talk I gave at Rubyconf 
 
 # Final Boss Exercise: baby-SDK for Twilio
 
-![1200px-Babybowser](https://github.com/cjavdev/twilio-tinker-time/assets/3710766/b7a5be12-2827-47b0-9bdc-4ec651e86aba)
+<img src="https://github.com/cjavdev/twilio-tinker-time/assets/3710766/b7a5be12-2827-47b0-9bdc-4ec651e86aba" width="40%" height="40%" />
 
 
 Alright, let's build our own baby-SDK for Twilio.
