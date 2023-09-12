@@ -62,12 +62,12 @@ Here's a common example for installing a client side SDK, this time for Google M
 </html>
 ```
 
-### Self hosting
+### Self-hosting
 
-To self host, you'd download the SDK code then include it in your client side
-JavaScript either directly or via a build process. Many client side JavaScript
-SDKs will show how to install with `npm` and expect that you have some build
-process set up to include those modules in your bundled JavaScript.
+To self-host, you'd download the SDK code and then include it in your client-side
+JavaScript either directly or via a build process. Many client-side JavaScript
+SDKs will show how to install with `npm` and expect you to have some build
+process to include those modules in your bundled JavaScript.
 
 
 ## Basic Debugging
@@ -77,11 +77,11 @@ process set up to include those modules in your bundled JavaScript.
 
 # Environment setup
 
-Rather than spend any extra time on environment setup, today, we'll use Replit.
+Rather than spend extra time on environment setup, we'll use Replit today.
 
-> Replit is an online integrated development environment (IDE) that can be used with a variety of programming languages, including JavaScript, Python, Go, C++, Node. js, Rust, and any other language available with the Nix packager.
+> Replit is an online integrated development environment (IDE) that can be used with a variety of programming languages, including JavaScript, Python, Go, C++, Node.js, Rust, and any other language available with the Nix packager.
 
-If you're playing along at home and want to get setup outside of Replit, you'll need to set up your envornment:
+If you're playing along at home and want to get set up outside of Replit, you'll need to set up your environment:
 
 ### Setup Node.js:
 
@@ -102,7 +102,7 @@ Navigate to the Twilio Console and take note of your `ACCOUNT_SID` and `AUTH_TOK
 
 # Exercise 1: Installing the client-side Twilio Flex Chat SDK
 
-Installing the client side SDK for working with Twilio's Flex Chat involves a bit of both loading a javascript file from a CDN and writing a small
+Installing the client-side SDK for working with Twilio's Flex Chat involves a bit of both loading a javascript file from a CDN and writing a small
 bit of JavaScript to initialize the WebChat.
 
 Follow the steps outlined in the [Twilio Documentation](https://www.twilio.com/docs/flex/developer/messaging/webchat/setup#consuming-from-cdn)
@@ -117,9 +117,9 @@ These are often referred to as package managers. In node, the most common is `np
 
 > `npm` is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry.
 
-Twilio publishes their SDK to the `npm` registry. Checkout the `npm` registry listing for [twilio-node](https://www.npmjs.com/package/twilio).
+Twilio publishes its SDK to the `npm` registry. Check out the `npm` registry listing for [twilio-node](https://www.npmjs.com/package/twilio).
 
-From the shell on replit we can run `npm install twilio`.
+From the shell on replit, we can run `npm install twilio`.
 
 That command will add `twilio` to our `package.json` file and download the SDK
 code into a special directory called `node_modules` which will contain the
@@ -143,5 +143,8 @@ simple way to store credentials in a bit safer way than hard coding.
 Technically hard coding the string values for these strings here would also
 work, but is not advised.
 
+<img width="1721" alt="image" src="https://github.com/cjavdev/twilio-tinker-time/assets/3710766/3c8925ee-29cf-429d-a160-1d0d1de55aab">
+
+
 When you restart the server, you should see a log statement with your
-initialized server side SDK that is ready to make requests!
+initialized server-side SDK that is ready to make requests!
